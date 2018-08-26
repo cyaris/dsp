@@ -7,16 +7,16 @@ Please follow and complete the free online [Bash Scripting Tutorial](https://rya
 ---
 
 ### Q1.  Cheat Sheet of Commands  
-pwd: show current working directory path
-mkdir: creating a directory
-rm -r: deleting a directory
-touch: creating a file using `touch` command
-rm: deleting a file
-mv ___ > ___: renaming a file
-ls -a: listing hidden files
-cp ___ ___/: copying a file from one directory to another
-clear: clear text in Terminal
-find ~/ -type f -name "____”: find any file on computer
+`pwd`: show current working directory path
+`mkdir`: creating a directory
+`rm -r`: deleting a directory
+`touch`: creating a file using touch command
+`rm`: deleting a file
+`mv ___ > ___`: renaming a file
+`ls -a`: listing hidden files
+`cp ___ ___/`: copying a file from one directory to another
+`clear`: clear text in Terminal
+`find ~/ -type f -name "____”`: find any file on computer
 
  ---
  
@@ -34,9 +34,9 @@ find ~/ -type f -name "____”: find any file on computer
  
  ### Q3.  More List Files in Unix  
  Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
-ls -F:	flags filenames.
-ls -i: displays the inode for each file.
-ls -p: displays directories with /
+`ls -F`:	flags filenames.
+`ls -i`: displays the inode for each file.
+`ls -p`: displays directories with /
 
 ---
 
