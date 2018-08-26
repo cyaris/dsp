@@ -8,34 +8,29 @@ Please follow and complete the free online [Bash Scripting Tutorial](https://rya
 
 ### Q1.  Cheat Sheet of Commands  
 
-Here's a list of items with which you should be familiar:  
-* show current working directory path
-* creating a directory
-* deleting a directory
-* creating a file using `touch` command
-* deleting a file
-* renaming a file
-* listing hidden files
-* copying a file from one directory to another
-
-Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+pwd: show current working directory path
+mkdir: creating a directory
+rm -r: deleting a directory
+touch: creating a file using `touch` command
+rm: deleting a file
+mv ___ > ___: renaming a file
+ls -a: listing hidden files
+cp ___ ___/: copying a file from one directory to another
+clear: clear text in Terminal
+find ~/ -type f -name "____”: find any file on computer
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
+`ls`: Lists all files in a working directory.
+`ls -a`: Lists all files (including hidden files) in a working directory.
+`ls -l`: Lists all files in a working directory in a more readable format.  
+`ls -lh`: Lists all files in a working directory in a more readable format.
+`ls -lah`: Lists all files (including hidden files) in a working directory in a more readable format.  
+`ls -t`: Lists all files in a working directory in the order in which it was last modified. 
 `ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -43,7 +38,9 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -F:	flags filenames.
+ls -i: displays the inode for each file.
+ls -p: displays directories with /
 
 ---
 
