@@ -106,7 +106,9 @@ pmf = thinkstats2.Pmf(t)
 thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Config(xlabel='Random variate', ylabel='PMF')
 ```
-
+```
+The function produces numbers that are really random, but constrained between 0 and 1.
+```
 ### Q4. [Think Stats Chapter 5 Exercise 1](statistics/5-1-blue_men.md) (normal distribution of blue men)
 This is a classic example of hypothesis testing using the normal distribution.  The effect size used here is the Z-statistic. 
 
@@ -122,14 +124,24 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+```
+3000/300 = 10 sets of identical twins.
+5 sets of boy-boy identical twins.
+
+3000/125 = 24 sets of fraternal twins.
+1/4 would be boy-boy, 1/4 girl-girl, 1/4 boy-girl, 1/4 girl-boy.
+6 sets would be boy-boy.
+
+5 boy-boy identical/(5 boy-boy identical + 6 boy-boy fraternal) = 5/11
+```
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
-How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+```
+With frequentist statistics, the probability does not depend on a subjective prior hypothesis. Instead, it depends on the likelihood P(D | H)) for both observed and unobserved data.
+```
 
 ---
 
